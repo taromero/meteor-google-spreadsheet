@@ -1,3 +1,3 @@
 Meteor wrapper for https://github.com/theoephraim/node-google-spreadsheet.
 
-It wraps `setAuth` and `getRows` with Meteor.wrapAsync.
+It wraps `setAuth`, `getInfo` and `getRows` with Meteor.wrapAsync.
