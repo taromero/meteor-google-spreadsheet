@@ -1,7 +1,7 @@
 GoogleSpreadsheet = Npm.require("google-spreadsheet")
 
 GoogleSpreadsheet = addMethodsToInstancesOf(GoogleSpreadsheet, function() {
-  this.setAuth = Meteor.wrapAsync(this.setAuth)
+  this.useServiceAccountAuth = Meteor.wrapAsync(this.useServiceAccountAuth)
   this.getRows = Meteor.wrapAsync(this.getRows)
   this.getInfo = Meteor.wrapAsync(this.getInfo)
 })

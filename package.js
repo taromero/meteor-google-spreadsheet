@@ -1,13 +1,13 @@
 Package.describe({
   name: 'canotto90:meteor-google-spreadsheet',
-  version: '0.2.2',
+  version: '1.0.1',
   summary: 'Meteor wrapper for node-google-spreadsheet',
   git: 'https://github.com/taromero/meteor-google-spreadsheeti.git',
   documentation: 'README.md'
 });
 
 Npm.depends({
-  'google-spreadsheet': '0.2.8'
+  'google-spreadsheet': '1.0.1'
 });
 
 Package.onUse(function(api) {
